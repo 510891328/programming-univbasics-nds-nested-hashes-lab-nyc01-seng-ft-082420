@@ -15,7 +15,7 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  [DON_G.sort_by(&:name), JOELLE_VD.sort_by(&:name), PAT_M.sort_by(&:name), KATE_G.sort_by(&:name), BRUCE_G.sort_by(&:name)]
+  [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
 end
 
 def aoh_lookup(aoh, row, key)
